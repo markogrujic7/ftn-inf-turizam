@@ -19,6 +19,13 @@ table {
         text-align: left;
         width: fit-content;
     }
+    tbody {
+        tr:hover {
+            cursor: pointer;
+            background-color:cadetblue;
+        }
+    }
+    
 }
 
 #forma {
