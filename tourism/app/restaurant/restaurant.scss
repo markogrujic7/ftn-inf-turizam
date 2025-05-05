@@ -1,7 +1,8 @@
-#tabela{
+#tabela {
     margin: 20px;
     display: inline-block;
     border-collapse: collapse;
+    vertical-align: top;
     th, td {
         border: 1px solid black;
         padding: 15px;
@@ -16,8 +17,47 @@
     }
 }
 
-#detalji{
-    min-width: 30%;
+.forma {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 300px;
+    
+    .form-group {
+        margin-bottom: 15px;
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    }
+    
+    .dodaj-btn {
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+#detalji {
+    min-width: 300px;
     margin: 20px;
     border-collapse: collapse;
     td {
