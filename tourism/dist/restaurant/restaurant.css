@@ -1,0 +1,29 @@
+#tabela {
+  margin: 20px;
+  display: inline-block;
+  border-collapse: collapse;
+}
+#tabela th, #tabela td {
+  border: 1px solid black;
+  padding: 15px;
+}
+#tabela th {
+  background-color: #333;
+  color: white;
+}
+#tabela tr:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+#detalji {
+  min-width: 30%;
+  margin: 20px;
+  border-collapse: collapse;
+}
+#detalji td {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=restaurant.css.map */
