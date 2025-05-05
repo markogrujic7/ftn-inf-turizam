@@ -1,0 +1,65 @@
+#tabela {
+  margin: 20px;
+  display: inline-block;
+  border-collapse: collapse;
+  vertical-align: top;
+}
+#tabela th, #tabela td {
+  border: 1px solid black;
+  padding: 15px;
+}
+#tabela th {
+  background-color: #333;
+  color: white;
+}
+#tabela tr:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.forma {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 300px;
+}
+.forma .form-group {
+  margin-bottom: 15px;
+}
+.forma .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.forma .form-group input[type=text] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.forma .dodaj-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+#detalji {
+  min-width: 300px;
+  margin: 20px;
+  border-collapse: collapse;
+}
+#detalji td {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=restaurant.css.map */

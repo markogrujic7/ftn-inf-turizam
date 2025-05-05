@@ -1,26 +1,67 @@
-$primary-color: #2c3e50;
-$background-color: #f4f4f9;
-$shadow-color: rgba(0, 0, 0, 0.1);
-
-#contact-info {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 40px;
-    background-color: $background-color;
-    border-radius: 10px;
-    box-shadow: 0 10px 25px $shadow-color;
-    text-align: center;
-
-    h2 {
-        font-size: 32px;
-        color: $primary-color;
-        margin-bottom: 20px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-weight: bold;
+#tabela {
+    margin: 20px;
+    display: inline-block;
+    border-collapse: collapse;
+    vertical-align: top;
+    th, td {
+        border: 1px solid black;
+        padding: 15px;
+    }
+    th {
+        background-color: #333;
+        color: white;
+    }
+    tr:hover {
+        background-color: grey;
+        cursor: pointer;
     }
 }
 
-.contact-item {
-    margin-bottom: 20px;
+.forma {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 300px;
+    
+    .form-group {
+        margin-bottom: 15px;
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    }
+    
+    .dodaj-btn {
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+#detalji {
+    min-width: 300px;
+    margin: 20px;
+    border-collapse: collapse;
+    td {
+        border: 1px solid black;
+        padding: 15px;
+    }
 }
